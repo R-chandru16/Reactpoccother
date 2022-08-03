@@ -1,0 +1,47 @@
+.addform{
+    width: 50%;
+    background-color: white;
+    margin-left: 25%;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+h3{
+    text-align: center;
+    margin-top:20px;
+    font-family: sans-serif;
+    background-image: linear-gradient(to bottom right,#003060,#055C9D);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+label,input{
+    width: 240px;
+    display: inline-block;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+label{
+    margin-left: 70px;
+    margin-top: 25px;
+    background-image: linear-gradient(to bottom right,#003060,#055C9D);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    font-family: sans-serif;
+}
+.addform:hover{
+    box-shadow: 0 0 2px 2px rgb(214, 231, 244);
+    background-image: linear-gradient(to left,white,rgba(243, 248, 251, 0.92));
+}
+
+.butc{
+  
+ margin-bottom: 20px;
+}
+.buttonc{
+    margin-left: 32%;
+    margin-bottom: 20px;
+    margin-right: 10%;
+}
